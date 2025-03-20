@@ -1,0 +1,100 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderStyle = bsSizeToolWin
+  Caption = 'delphi'#35745#31639#22120'V1.0'
+  ClientHeight = 245
+  ClientWidth = 536
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object Label1: TLabel
+    Left = 336
+    Top = 48
+    Width = 13
+    Height = 25
+    Caption = '='
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -18
+    Font.Name = 'Segoe UI'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 144
+    Top = 48
+    Width = 13
+    Height = 25
+    Caption = '+'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -18
+    Font.Name = 'Segoe UI'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 40
+    Top = 48
+    Width = 81
+    Height = 33
+    TabOrder = 0
+    OnClick = Edit1Click
+  end
+  object Edit2: TEdit
+    Left = 209
+    Top = 45
+    Width = 88
+    Height = 36
+    TabOrder = 1
+    OnClick = Edit2Click
+  end
+  object Edit4: TEdit
+    Left = 401
+    Top = 45
+    Width = 88
+    Height = 36
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 73
+    Top = 152
+    Width = 75
+    Height = 33
+    Caption = #10133
+    TabOrder = 3
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 186
+    Top = 152
+    Width = 75
+    Height = 33
+    Caption = #10134
+    TabOrder = 4
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 297
+    Top = 152
+    Width = 75
+    Height = 33
+    Caption = #10006
+    TabOrder = 5
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 401
+    Top = 152
+    Width = 75
+    Height = 33
+    Caption = #10135
+    TabOrder = 6
+    OnClick = Button4Click
+  end
+end
