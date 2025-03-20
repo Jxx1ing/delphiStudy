@@ -4,11 +4,11 @@
     <Transaction>2025/03/17 16:50:04.000.057,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2025/03/17 23:05:44.000.949,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2025/03/20 00:07:48.000.940,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2025/03/20 22:50:03.407,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2025/03/20 22:51:24.789,D:\E\Github\delphi\delphiStudy\20250321 day04\example02_计算器\Unit1.pas=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2025/03/20 22:51:24.789,D:\E\Github\delphi\delphiStudy\20250321 day04\example02_计算器\Unit1.dfm=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2025/03/20 23:13:55.917,D:\E\Github\delphi\delphiStudy\20250321 day04\example02_cal\Unit1.dfm=D:\E\Github\delphi\delphiStudy\20250321 day04\example02_计算器\Unit1.dfm</Transaction>
-    <Transaction>2025/03/20 23:13:55.917,D:\E\Github\delphi\delphiStudy\20250321 day04\example02_cal\Unit1.pas=D:\E\Github\delphi\delphiStudy\20250321 day04\example02_计算器\Unit1.pas</Transaction>
-    <Transaction>2025/03/20 23:22:01.569,D:\E\Github\delphi\delphiStudy\20250321 day04\example02_cal\Project1.dproj=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2025/03/20 22:50:03.000.407,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/03/20 22:51:24.000.789,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\E\Github\delphi\delphiStudy\20250321 day04\example02_计算器\Unit1.dfm</Transaction>
+    <Transaction>2025/03/20 22:51:24.000.789,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\E\Github\delphi\delphiStudy\20250321 day04\example02_计算器\Unit1.pas</Transaction>
+    <Transaction>2025/03/20 23:13:55.000.917,D:\E\Github\delphi\delphiStudy\20250321 day04\example02_计算器\Unit1.dfm=D:\E\Github\delphi\delphiStudy\20250321 day04\example02_cal\Unit1.dfm</Transaction>
+    <Transaction>2025/03/20 23:13:55.000.917,D:\E\Github\delphi\delphiStudy\20250321 day04\example02_计算器\Unit1.pas=D:\E\Github\delphi\delphiStudy\20250321 day04\example02_cal\Unit1.pas</Transaction>
+    <Transaction>2025/03/20 23:22:01.000.569,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\E\Github\delphi\delphiStudy\20250321 day04\example02_cal\Project1.dproj</Transaction>
   </Transactions>
 </BorlandProject>
