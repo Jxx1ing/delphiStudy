@@ -5,8 +5,8 @@
     <Transaction>2025/03/17 23:05:44.000.949,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2025/03/20 00:07:48.000.940,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2025/03/20 21:17:54.000.395,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2025/03/20 21:30:38.000.002,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\E\Github\delphi\delphiStudy\20250321 day04\example1.pas</Transaction>
-    <Transaction>2025/03/20 21:30:38.000.002,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\E\Github\delphi\delphiStudy\20250321 day04\example1.dfm</Transaction>
-    <Transaction>2025/03/20 21:48:23.000.981,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\E\Github\delphi\delphiStudy\20250321 day04\example01.dproj</Transaction>
+    <Transaction>2025/03/20 21:30:38.000.002,D:\E\Github\delphi\delphiStudy\20250321 day04\example1.dfm=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2025/03/20 21:30:38.000.002,D:\E\Github\delphi\delphiStudy\20250321 day04\example1.pas=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/03/20 21:48:23.000.981,D:\E\Github\delphi\delphiStudy\20250321 day04\example01.dproj=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
   </Transactions>
 </BorlandProject>

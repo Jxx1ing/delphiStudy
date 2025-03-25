@@ -1,0 +1,159 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages,
+  System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls,
+  DelphiZXIngQRCode,
+  System.JSON,
+  IdFTPListTypes,IdSSLOpenSSl,SuperObject, nativexml;
+
+type
+  TForm1 = class(TForm)
+    Button1: TButton;
+    image1: TImage;
+    Timer1: TTimer;
+    lblStatus: TLabel;
+    procedure Button1Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure FormDestroy(Sender: TObject);
+
+  private
+    ReqURL : string;
+    ReqData : string;
+    Response: string;
+    ReqID : string;
+    AuthUrl : string;
+    ResultUrl : string;
+    FChecking: Boolean;
+    procedure Request();
+    procedure Check();
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+uses
+  Winapi.MSXMLIntf, Winapi.MSXML;
+
+//申请授权
+procedure TForm1.Request();
+var
+  HTTPRequest: IXMLHTTPRequest;
+  Xml : TNativeXml;
+  Node: TXmlNode;
+begin
+  //创建XMLTHHP对象
+  HTTPRequest := CoXMlHTTP60.Create;
+  //设置请求的URL
+  ReqURL := 'https://saas.fscut.com/wxauth/reqauth.aspx?App={0}&Version={1}&Action={2}&ReqData={3}&wework=1';
+  //初始化GET请求
+  HTTPRequest.open('GET',ReqURL,False,EmptyParam,EmptyParam);
+  //发送请求
+  HTTPRequest.send(EmptyParam);
+  //检查响应状态
+  if (HTTPRequest.status = 200) then
+  begin
+    ShowMessage('请求成功');
+    Response := HTTPRequest.responseText;
+  end
+  else
+  begin
+    ShowMessage('请求失败');
+  end;
+
+  //接下来开始解析XML文件
+  XML := TNativeXml.Create(nil);
+  XML.ReadFromString(Response);
+  Node := XML.Root;
+
+  ReqID := Node[2].Value;
+  AuthUrl := Node[3].Value;
+  ResultUrl := Node[4].Value;
+  ReqData := '{3}';
+end;
+
+// 生成二维码并返回 TBitmap
+function GenerateQRCodeBitmap(const Data: WideString; Encoding: TQRCodeEncoding; QuietZone: Integer): TBitmap;
+var
+  QRCode: TDelphiZXingQRCode;
+  Row, Column: Integer;
+begin
+  QRCode := TDelphiZXingQRCode.Create;
+  try
+    QRCode.Data := Data;
+    QRCode.Encoding := Encoding;
+    QRCode.QuietZone := QuietZone;
+
+    Result := TBitmap.Create;
+    Result.SetSize(QRCode.Rows, QRCode.Columns);
+
+    for Row := 0 to QRCode.Rows - 1 do
+    begin
+      for Column := 0 to QRCode.Columns - 1 do
+      begin
+        if QRCode.IsBlack[Row, Column] then
+          Result.Canvas.Pixels[Column, Row] := clBlack
+        else
+          Result.Canvas.Pixels[Column, Row] := clWhite;
+      end;
+    end;
+  finally
+    QRCode.Free;
+  end;
+end;
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+  FChecking := False;
+  Timer1.Enabled := False;
+  Timer1.Interval := 2000; // 每2秒检查一次授权结果
+end;
+
+procedure TForm1.FormDestroy(Sender: TObject);
+begin
+  Timer1.Enabled := False;
+end;
+
+procedure TForm1.Check();
+var
+  HTTPRequest: IXMLHTTPRequest;
+  CheckUrl : string;
+  JsonObj: ISuperObject;
+begin
+  CheckUrl := Format('%s?ReqID=%s&ReqData=%s', [ResultUrl, ReqID, ReqData]);
+  HTTPRequest := CoXMlHTTP60.Create;
+  HTTPRequest.open('GET',CheckUrl,False,EmptyParam,EmptyParam);
+  HTTPRequest.send(EmptyParam);
+  if(HTTPRequest.status = 200) then
+  begin
+    Timer1.Enabled := False;
+    JsonObj := SO(HTTPRequest.responseText);
+    // 授权成功处理逻辑
+    ShowMessage(Format('授权成功! 用户: %s', [JsonObj.S['UserId']]));
+  end;
+end;
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  //申请授权
+  Request();
+  //显示二维码
+  Image1.Picture.Assign(GenerateQRCodeBitmap(AuthUrl, qrAuto, 4));
+  //检查是否授权
+  Check();
+end;
+
+
+
+
+
+
+end.
