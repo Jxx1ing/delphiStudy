@@ -1,0 +1,19 @@
+unit BPLtest;
+
+interface
+
+uses
+  Winapi.Windows, System.SysUtils,
+  Goldbach;  // 应该能正常识别了
+
+procedure TestGoldbach;
+
+implementation
+
+procedure TestGoldbach;
+begin
+  // 调用BPL中的功能
+  VerifyGoldbachConjecture(100);
+end;
+
+end.
