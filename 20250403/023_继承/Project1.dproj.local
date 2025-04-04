@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/03/23 22:38:04.000.002,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/04/03 00:48:06.000.694,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/04/03 00:53:17.000.335,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Animal.pas=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/04/03 00:53:22.000.778,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/04/03 00:53:30.000.675,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Dog.pas=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/04/03 01:37:21.000.871,G:\Delphi笔记\Delphi基础编程【第一季】\面向对象\023_继承\Dog.pas=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Dog.pas</Transaction>
+    <Transaction>2025/04/03 01:37:32.000.442,G:\Delphi笔记\Delphi基础编程【第一季】\面向对象\023_继承\Animal.pas=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Animal.pas</Transaction>
+    <Transaction>2025/04/03 01:37:36.000.863,G:\Delphi笔记\Delphi基础编程【第一季】\面向对象\023_继承\Project1.dproj=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
