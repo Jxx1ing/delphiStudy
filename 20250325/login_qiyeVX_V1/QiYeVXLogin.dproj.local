@@ -4,14 +4,14 @@
     <Transaction>2025/03/21 15:51:46.000.166,=C:\Users\jinzhexi\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2025/03/24 11:18:16.000.615,=C:\Users\jinzhexi\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2025/03/24 11:22:17.000.545,=C:\Users\jinzhexi\Desktop\新建文件夹\DelphiZXingQRCode-master\Source\DelphiZXIngQRCode.pas</Transaction>
-    <Transaction>2025/03/24 11:22:39.000.535,C:\Users\jinzhexi\Desktop\qiyeweixin_Login\demo1\Unit1.dfm=C:\Users\jinzhexi\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2025/03/24 11:22:39.000.535,C:\Users\jinzhexi\Desktop\qiyeweixin_Login\demo1\Unit1.pas=C:\Users\jinzhexi\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2025/03/24 11:22:48.000.742,C:\Users\jinzhexi\Desktop\qiyeweixin_Login\demo1\Project2.dproj=C:\Users\jinzhexi\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2025/03/24 11:22:39.000.535,C:\Users\jinzhexi\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\jinzhexi\Desktop\qiyeweixin_Login\demo1\Unit1.dfm</Transaction>
+    <Transaction>2025/03/24 11:22:39.000.535,C:\Users\jinzhexi\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\jinzhexi\Desktop\qiyeweixin_Login\demo1\Unit1.pas</Transaction>
+    <Transaction>2025/03/24 11:22:48.000.742,C:\Users\jinzhexi\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\jinzhexi\Desktop\qiyeweixin_Login\demo1\Project2.dproj</Transaction>
     <Transaction>2025/03/25 11:21:42.000.174,=C:\Users\jinzhexi\Desktop\V1_Package - 副本\uHttpClient.pas</Transaction>
     <Transaction>2025/03/25 19:02:21.000.640,C:\Users\jinzhexi\Desktop\V1_Package - 副本\uHttpClient.pas=</Transaction>
-    <Transaction>2025/03/25 19:04:48.000.767,C:\Users\jinzhexi\Desktop\V1_Package - 副本\Unit1.dfm=C:\Users\jinzhexi\Desktop\V1_Package - 副本\Login_QiYeVX.dfm</Transaction>
-    <Transaction>2025/03/25 19:04:48.000.767,C:\Users\jinzhexi\Desktop\V1_Package - 副本\Unit1.pas=C:\Users\jinzhexi\Desktop\V1_Package - 副本\Login_QiYeVX.pas</Transaction>
-    <Transaction>2025/03/25 19:05:08.000.262,C:\Users\jinzhexi\Desktop\V1_Package - 副本\Project2.dproj=C:\Users\jinzhexi\Desktop\V1_Package - 副本\QiYeVXLogin.dproj</Transaction>
+    <Transaction>2025/03/25 19:04:48.000.767,C:\Users\jinzhexi\Desktop\V1_Package - 副本\Login_QiYeVX.pas=C:\Users\jinzhexi\Desktop\V1_Package - 副本\Unit1.pas</Transaction>
+    <Transaction>2025/03/25 19:04:48.000.767,C:\Users\jinzhexi\Desktop\V1_Package - 副本\Login_QiYeVX.dfm=C:\Users\jinzhexi\Desktop\V1_Package - 副本\Unit1.dfm</Transaction>
+    <Transaction>2025/03/25 19:05:08.000.262,C:\Users\jinzhexi\Desktop\V1_Package - 副本\QiYeVXLogin.dproj=C:\Users\jinzhexi\Desktop\V1_Package - 副本\Project2.dproj</Transaction>
   </Transactions>
 	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="Login_QiYeVX.pas"/>
