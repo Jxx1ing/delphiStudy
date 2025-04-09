@@ -1,0 +1,12 @@
+unit Unit2;
+
+interface
+type
+  TStudent = class
+    FNmae : string;
+    FAge : Integer;
+  end;
+
+implementation
+
+end.

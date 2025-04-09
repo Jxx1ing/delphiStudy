@@ -1,0 +1,16 @@
+unit Unit2;
+
+interface
+type
+  TStudent = class
+  private
+    FNmae : string;
+    FAge : Integer;
+  public
+    constructor Create();overload;
+    constructor Create(FName : string; FAge : Integer);
+  end;
+
+implementation
+
+end.
