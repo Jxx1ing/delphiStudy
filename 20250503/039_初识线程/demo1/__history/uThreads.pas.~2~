@@ -1,0 +1,33 @@
+unit uThreads;
+
+interface
+
+uses
+  System.Classes;
+
+type
+  TWork = class(TThread)
+  private
+    { Private declarations }
+  protected
+    procedure Execute; override;
+  public
+    procedure operation;
+  end;
+
+implementation
+
+uses
+  Unit1;  //局部引用（但是有循环引用的风险）
+
+{ TWork }
+
+procedure TWork.Execute;
+begin
+end;
+
+procedure TWork.operation;
+begin
+end;
+
+end.

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/03/23 22:38:04.000.002,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/04/15 02:03:53.000.604,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/04/24 03:34:17.000.077,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/05/03 21:26:23.457,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/05/03 21:31:30.563,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2025/05/03 21:35:11.717,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\uThread.pas=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2025/05/03 21:35:21.061,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\uThreads.pas=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\uThread.pas</Transaction>
+    <Transaction>2025/05/03 21:36:11.581,G:\Delphi笔记\Delphi基础编程【第一季】\面向对象_VCL\039_初识线程\demo1\uThreads.pas=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\uThreads.pas</Transaction>
+    <Transaction>2025/05/03 21:36:14.439,G:\Delphi笔记\Delphi基础编程【第一季】\面向对象_VCL\039_初识线程\demo1\Unit1.pas=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/05/03 21:36:14.439,G:\Delphi笔记\Delphi基础编程【第一季】\面向对象_VCL\039_初识线程\demo1\Unit1.dfm=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2025/05/03 21:36:15.699,G:\Delphi笔记\Delphi基础编程【第一季】\面向对象_VCL\039_初识线程\demo1\Project1.dproj=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
