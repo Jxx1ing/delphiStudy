@@ -1,0 +1,4 @@
+该工具需要路径
+D:\Software\mORMot-master
+
+Get请求socket的库是公司内部封装的库，其余不需要
